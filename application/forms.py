@@ -20,7 +20,7 @@ class JobPostForm(FlaskForm):
     years_of_experience = StringField('how many years of experience',
             validators = [
                 DataRequired(),
-                Length(min=1, max=3)
+                Length(min=1, max=5)
             ]
     )
 

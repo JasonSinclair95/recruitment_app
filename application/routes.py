@@ -1,5 +1,5 @@
-from application import app
-from flask import render_template, redirect, url_for
+from application import app, db
+from flask import render_template, redirect, url_for, request
 from application.models import JobPosts
 from application.forms import JobPostForm
 
@@ -14,13 +14,13 @@ def about():
 	return render_template('about.html', title='about')
 
 @app.route('/JobApplication')
-def register():
-	return render_template('Job_Application.html', title='Job Applications')
+def job_application():
+	return render_template('job_application.html', title='Job Applications')
 
 @app.route('/JobPostForm', methods=['GET', 'POST'])
 def post():
 	form = JobPostForm()
-	if form.valid_on_submit():
+	if form.validate_on_submit():
 		postData = JobPosts( 
 			title=form.title.data,
 			positions=form.positions.data,
@@ -32,9 +32,7 @@ def post():
 		db.session.add(postData)
 		db.session.commit()
 		return redirect(url_for('home'))
-
 	else:
-		return render_template('Jobpost.html', title='JobPost', form=form)
-
-
+		print(form.errors)
+	return render_template('jobs_post.html', title='JobPost', form=form)
 
