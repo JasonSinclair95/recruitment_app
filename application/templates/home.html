@@ -3,12 +3,12 @@
 {% block body_content %}
 <p>this is a home page</p>
 
-{% for post in JobPost %}
+{% for post in Jobs_post %}
 	<div>
 		<h3>{{ post.title }}</h3>
 		<p><b> - positions :</b>{{ post.positions }}</p>
 		<p><b> - years of experience:</b>{{ post.years_of_experience }}</p>
-		<p><b> - salary:</b>{{ post.salary }}</p
+		<p><b> - salary:</b>{{ post.salary }}</p>
 		<p><b> - address :</b>{{ post.address }}</p>
 		<p><b> - postcode :</b>{{ post.postcode }}</p>
 	</div>

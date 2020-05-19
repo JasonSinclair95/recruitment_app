@@ -1,6 +1,21 @@
 {% extends "layout.html" %}
-
 {% block body_content %}
-<p>complete an job application</p>
-{% endblock %}
-
+<div class="form">
+	<form method="POST" action="">
+		{{ form.hidden_tag() }}
+		{{ form.job_id.label }}
+		{{ form.job_id }}
+		<br>
+		{{ form.first_name.label }}
+		{{ form.first_name }}
+		<br>
+		{{ form.last_name.label }}
+		{{ form.last_name }}
+		<br>
+		{{ form.email.label }}
+		{{ form.email }}
+		<br>
+		{{ form.submit }}
+	</form>
+</div>
+{% endblock body_content %}
