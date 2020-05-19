@@ -3,8 +3,8 @@
 <div class="form">
 	<form method="POST" action="">
 		{{ form.hidden_tag() }}
-		{{ form.title.label }}
-		{{ form.title }}
+		{{ form.job_role.label }}
+		{{ form.job_role }}
 		<br>
 		{{ form.positions.label }}
 		{{ form.positions }}
@@ -23,5 +23,6 @@
 		<br>
 		{{ form.submit }}
 	</form>
+	
 </div>
 {% endblock body_content %}

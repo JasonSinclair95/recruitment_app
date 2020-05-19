@@ -5,13 +5,20 @@
 
 {% for post in Jobs_post %}
 	<div>
-		<h3>{{ post.title }}</h3>
+		<h3>{{ post.job_role }}</h3>
 		<p><b> - positions :</b>{{ post.positions }}</p>
 		<p><b> - years of experience:</b>{{ post.years_of_experience }}</p>
 		<p><b> - salary:</b>{{ post.salary }}</p>
 		<p><b> - address :</b>{{ post.address }}</p>
 		<p><b> - postcode :</b>{{ post.postcode }}</p>
 	</div>
+	<form action= "{{ url_for( 'UpdateJobPost', id=post.Job_id) }}">
+	<button type='submit'> Update job post</button>
+	</form>
+	
+	<form action= "{{ url_for( 'DeleteJobPost', id=post.Job_id) }}">	
+	<button type='submit'> Delete Your job post</button>
+	</form>
 {% endfor %}
 
 {% endblock %}

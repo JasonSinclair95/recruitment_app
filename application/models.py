@@ -19,7 +19,7 @@ class JobApplications(db.Model):
 class JobPosts(db.Model):
 	__tablename__ = 'JobPosts'
 	Job_id = db.Column(db.Integer, primary_key=True)
-	title = db.Column(db.String(100), nullable=False, unique=False)
+	job_role = db.Column(db.String(100), nullable=False, unique=False)
 	positions = db.Column(db.Integer, nullable=False)
 	years_of_experience = db.Column(db.Integer, nullable=False)
 	salary = db.Column(db.Integer, nullable=False)

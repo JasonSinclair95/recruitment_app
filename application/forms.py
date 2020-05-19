@@ -34,7 +34,7 @@ class ApplicationsForm(FlaskForm):
 
     
 class JobPostForm(FlaskForm):
-    title = StringField('Job title/role',
+    job_role = StringField('Job title/role',
             validators = [
                 DataRequired(),
                 Length(min=4, max=60)
@@ -79,7 +79,7 @@ class JobPostForm(FlaskForm):
     submit = SubmitField('Post Job')
 
 class UpdateJobPostForm(FlaskForm):
-    title = StringField('Job title/role',
+    job_role = StringField('Job title/role',
             validators = [
                 DataRequired(),
                 Length(min=4, max=60)
