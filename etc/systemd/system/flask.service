@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+[Unit]
+Description=Recruitment.app
+[Service]
+User=jenkins
+ExecStart=/var/lib/jenkins/workspace/example_freestyle/script/installation.sh
+
+[Install]
+WantedBy=multi-user.target
