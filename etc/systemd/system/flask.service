@@ -6,3 +6,4 @@ ExecStart=/var/lib/jenkins/workspace/example_freestyle/script/installation.sh
 
 [Install]
 WantedBy=multi-user.target
+
