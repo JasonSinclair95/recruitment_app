@@ -1,12 +1,12 @@
 <html>
-	<head><h1>{{ title }}</h1></head>  
+	<head><center> <h1>{{ title }}</h1> </center></head>  
 	<body> 
 	<div class=navbar>
 		<a href="{{ url_for('home') }}">&emsp; Home &emsp;</a>  
-        <a href="{{ url_for('post') }}">Post A Job</a>
-		<a href="{{ url_for('job_application') }}">Apply For A Job</a>
-		<a href="{{ url_for('about') }}">   About   </a>
-	</div>
+        <a href="{{ url_for('post') }}">&emsp; Post A Job &emsp;</a>
+		<a href="{{ url_for('job_application') }}">&emsp; Apply For A Job &emsp;</a>
+		<a href="{{ url_for('about') }}">&emsp; About &emsp;</a>
+	</div><br>
 	{% block body_content %}{% endblock %}
 	</body>
 </html>
