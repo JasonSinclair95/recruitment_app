@@ -13,23 +13,6 @@ def home():
 def about():
 	return render_template('about.html', title='about')
 
-@app.route('/JobApplication', methods=['GET', 'POST'])
-def job_application():
-	form = ApplicationsForm()
-	if form.validate_on_submit():
-		postData = JobApplications( 
-			Job_id=form.job_id.data,
-			first_name=(form.first_name.data),
-			last_name=(form.last_name.data),
-			email=(form.email.data),	
-		)
-		db.session.add(postData)
-		db.session.commit()
-		return redirect(url_for('home'))
-	else:
-		print(form.errors)
-	return render_template('job_application.html', title='Job Applications', form=form)
-
 @app.route('/JobPostForm', methods=['GET', 'POST'])
 def post():
 	form = JobPostForm()
@@ -72,7 +55,27 @@ def UpdateJobPost(id):
 		form.address.data = getPost.address
 		form.postcode.data = getPost.postcode
 	return render_template('jobs_post.html', title='JobPost', form=form, post=getPost)
-		
+
+@app.route('/job_application/<id>/', methods=['GET','POST'])
+def job_application(id):
+	form = ApplicationsForm()
+	getPost = JobPosts.query.filter_by(Job_id=id).first()
+	
+	if form.validate_on_submit():
+		postData = JobApplications( 
+			Job_id=form.job_id.data,
+			first_name=(form.first_name.data),
+			last_name=(form.last_name.data),
+			email=(form.email.data),	
+		)
+		db.session.add(postData)
+		db.session.commit()
+		return redirect(url_for('home'))
+	elif request.method == 'GET':
+		form.job_id.data = getPost.Job_id
+	else:
+		print(form.errors)
+	return render_template('job_application.html', title='Job Applications', form=form)
 
 @app.route('/Delete/<id>/JobPost/', methods=['GET','POST'])
 def DeleteJobPost(id):

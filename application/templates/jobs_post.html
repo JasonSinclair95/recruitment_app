@@ -3,32 +3,80 @@
 <div class="form">
 	<form method="POST" action="">
 		{{ form.hidden_tag() }}
+		<div class="form-group">
 		{{ form.job_role.label }}
 		{{ form.job_role }}
+		{% if form.job_role.errors %}
+        	<div class="error">
+				{% for error in form.job_role.errors %}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
 		<br>
-		<br>
+		<div class="form-group">
 		{{ form.positions.label }}
 		{{ form.positions }}
+		{% if form.positions.errors %}
+        	<div class="error">
+				{% for error in form.positions.errors %}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
 		<br>
-		<br>
+		<div class="form-group">
 		{{ form.years_of_experience.label }}
 		{{ form.years_of_experience }}
+		{% if form.years_of_experience.errors %}
+        	<div class="error">
+				{% for error in form.years_of_experience.errors %}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
 		<br>
-		<br>
+		<div class="form-group">
 		{{ form.salary.label }}
 		{{ form.salary }}
+		{% if form.salary.errors %}
+    		<div class="error">
+				{% for error in form.salary.errors %}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
 		<br>
-		<br>
+		<div class="form-group">
 		{{ form.address.label }}
-                {{ form.address }}
+		{{ form.address }}
+		{% if form.address.errors %}
+    		<div class="error">
+				{% for error in form.address.errors %}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
 		<br>
-		<br>
+		<div class="form-group">
 		{{ form.postcode.label }}
-                {{ form.postcode }}
+		{{ form.postcode }}
+		{% if form.postcode.errors %}
+    		<div class="error">
+				{% for error in form.postcode.errors %}
+					<span>{{ error }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
+		</div>
 		<br>
-		<br>
-		{{ form.submit }}
-	</form>
-	
+		<div class='form_group'>
+			{{ form.submit }}
+		</form>
 </div>
 {% endblock body_content %}

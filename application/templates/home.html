@@ -15,6 +15,10 @@
 	<form action= "{{ url_for( 'UpdateJobPost', id=post.Job_id) }}">
 	<button type='submit'> Update job post</button>
 	</form>
+
+	<form action= "{{ url_for( 'job_application', id=post.Job_id) }}">	
+		<button type='submit'> Apply for job</button>
+		</form>
 	
 	<form action= "{{ url_for( 'DeleteJobPost', id=post.Job_id) }}">	
 	<button type='submit'> Delete Your job post</button>
