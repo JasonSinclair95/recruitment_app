@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 [Unit]
 Description=Recruitment app
 [Service]
