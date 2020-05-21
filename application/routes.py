@@ -63,7 +63,7 @@ def job_application(id):
 	
 	if form.validate_on_submit():
 		postData = JobApplications( 
-			Job_id=form.job_id.data,
+			Job_id=id,
 			first_name=(form.first_name.data),
 			last_name=(form.last_name.data),
 			email=(form.email.data),	
@@ -71,8 +71,6 @@ def job_application(id):
 		db.session.add(postData)
 		db.session.commit()
 		return redirect(url_for('home'))
-	elif request.method == 'GET':
-		form.job_id.data = getPost.Job_id
 	else:
 		print(form.errors)
 	return render_template('job_application.html', title='Job Applications', form=form)
