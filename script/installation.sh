@@ -16,4 +16,5 @@ source /var/lib/jenkins/workspace/example_freestyle/venv/bin/activate
 
 pip3 install -r /var/lib/jenkins/workspace/example_freestyle/requirements.txt
 
-gunicorn --bind=0.0.0.0:5000 app:app
+python3 /var/lib/jenkins/workspace/example_freestyle/app.py
+
