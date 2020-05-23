@@ -13,8 +13,8 @@
     1. My Method
 
 3. [Architecture](#Architecture) 
-    3. Database Structure
-    3. CI Pipleline
+    1. Database Structure
+    1. CI Pipleline
 
 4. [Project Tracking](#Project-Tracking)
 
@@ -23,8 +23,8 @@
 6. [Front-End Design Walk Through](#Front-End-Desing-Walk-Through)
 
 7. [Conclusion](#conclusion)
-    7. Identified Issues
-    7. Future Improvments
+    1. Identified Issues
+    1. Future Improvments
 8. [Reference](#Reference)
 9. [license](#Licence)
 ---
