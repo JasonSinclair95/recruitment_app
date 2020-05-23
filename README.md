@@ -5,18 +5,18 @@
 1. Materials
     1. [ Recruitment Website ](https://34.89.105.159:5000)
     1. presentation
-*  Execuitve Summary & Critical Review
-. Aim  
-. Requirments
-. My Method
-* Architecture 
-.. Database Structure
-.. CI Pipleline
-* Project Tracking
-* Testing
-* Front-End Design Walk Through
-* Conclusion
-.. Identified Issues
-.. Future Improvments
+2. Execuitve Summary & Critical Review
+    2. Aim  
+    2. Requirments
+    2. My Method
+3. Architecture 
+    3. Database Structure
+    3. CI Pipleline
+4. Project Tracking
+5. Testing
+6. Front-End Design Walk Through
+7. Conclusion
+    7. Identified Issues
+    7. Future Improvments
 ---
 
