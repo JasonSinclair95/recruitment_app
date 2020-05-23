@@ -3,12 +3,12 @@
 
 ## Contents
 * Materials
-.. [ Recruitment Website ](https://34.89.105.159:5000)
-.. presentation
+. [ Recruitment Website ](https://34.89.105.159:5000)
+. presentation
 *  Execuitve Summary & Critical Review
-.. Aim  
-.. Requirments
-.. My Method
+. Aim  
+. Requirments
+. My Method
 * Architecture 
 .. Database Structure
 .. CI Pipleline
