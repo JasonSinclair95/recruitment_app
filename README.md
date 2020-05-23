@@ -1,6 +1,6 @@
 # Recruitement App
 > DevOps Core Fundamental Project 
-#### Objective: The personal objectives listed below relate directly to the skills listedin the[ SFIA 7 framework ](#https://www.sfia-online.org/en/framework/sfia-7)
+#### Objective: The personal objectives listed below relate directly to the skills listed in the **[ SFIA 7 framework ](#https://www.sfia-online.org/en/framework/sfia-7)**
  To create a fully functional CRUD application with utilisation of supporting tools,methodologies and technologies. To work efficiently and focus on creating more value for QA by devolping my understanding in all relevent Areas.
  
 --- 
