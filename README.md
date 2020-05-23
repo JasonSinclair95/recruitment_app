@@ -5,12 +5,12 @@
 ### Contents
 1. [ Materials ](#Materials)
     1. [ Recruitment Website ](https://34.89.105.159:5000)
-    1. presentation
+    1. [ presentation ](https://docs.google.com/presentation/d/1t09if4lU1a9x9wSj-CRnNaoeSMQIHuru3_VedxZLW-g/edit#slide=id.p)
 
 2. [Execuitve Summary & Critical Review](#execuitve-summary-&-critical-review)
-    2. Aim  
-    2. Requirments
-    2. My Method
+    1. Aim  
+    1. Requirments
+    1. My Method
 
 3. [Architecture](#Architecture) 
     3. Database Structure
