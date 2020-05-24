@@ -71,15 +71,20 @@ system deservice
 
 Isluatrated below is four tables of which i planned to include in my project within one Database. Although only Two was implemented the relationship between each table can be seen using the relevent connections and foreign/primary Keys. 
 
-####CRD
+![](Document/CRD.png)
 
-like stated aboove, overall only two tables was implemented "JobAplications" and "JobPosts".  A jobPost can have 0 to many Apllications for it, and a application can be from only one job roll posted. the application table depends on a Job to be Posted and makes use of the Primary Key "job_id" iorder for the user to identuify which job they are applying for. Modelled below is the CRD and the specification Created in Google SQL.
+like stated aboove, overall only two tables was implemented "JobAplications" and "JobPosts".  A jobPost can have 0 to many Apllications for it, and a application can be from only one job roll posted. the application table depends on a Job to be Posted and makes use of the Primary Key "job_id" iorder for the user to identuify which job they are applying for. Modelled below is the specification Created in Google SQL.
 
 
-####CRD for Two and Screenshot of SQL DataBAse
+![](Documents/SQL.png)
+
+Above were the two tables impimented in this application. the Tpe Collumb is set specifially for each varible in the table. the Jobid seen in the JobPosts Table in the FOreign Key in the JobApllications table and is also auto incrimented. all varibles in the dable must conatin data to be submited other a erros will be displayed. for example in the JobPosts table the salary cant contain more than 11 intergers or the address cant contain more than 100 charecters. below is what the error would look like on the website otherwise click [here](application/routes.py) to see the source code.
+
+![](Documents/AppError.png)
+
+
 
 ###CIP Piplie
-
 
 
 
