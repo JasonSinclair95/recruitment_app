@@ -5,41 +5,38 @@
  
 --- 
 
-### Contents
-1. [ Materials ](#Materials)
-    1. [ Recruitment Website ](https://34.89.105.159:5000)
-    1. [ presentation ](https://docs.google.com/presentation/d/1t09if4lU1a9x9wSj-CRnNaoeSMQIHuru3_VedxZLW-g/edit#slide=id.p)
+### Materials:
+1. [ Recruitment Website ](https://34.89.105.159:5000)
+2. [ presentation ](https://docs.google.com/presentation/d/1t09if4lU1a9x9wSj-CRnNaoeSMQIHuru3_VedxZLW-g/edit#slide=id.p)
 
-2. [Execuitve Summary & Critical Review](#execuitve-summary-&-critical-review)
+---
+
+### Contents
+1. [Execuitve Summary & Critical Review](#execuitve-summary-&-critical-review)
     1. Aim  
     1. My Method
     1. Summary
 
-3. [Architecture](#Architecture) 
+2. [Architecture](#Architecture) 
     1. Database Structure - CRD & SQL Tables
     1. CI Pipleline
 
-4. [Project Tracking](#Project-Tracking)
+3. [Project Tracking](#Project-Tracking)
 
-5. [Testing](#Testing)
+4. [Testing](#Testing)
 
-6. [Front-End Design Walk Through](#Front-End-Desing-Walk-Through)
+5. [Front-End Design Walk Through](#Front-End-Desing-Walk-Through)
 
-7. [Conclusion](#conclusion)
+6. [Conclusion](#conclusion)
     1. Identified Issues
     1. Future Improvments
-8. [Reference](#Reference)
-9. [license](#Licence)
----
-## Materials
-
-
-
-[Back to the Top](#Recruitement-App)
+7. [Reference](#Reference)
+8. [license](#Licence)
 
 ---
+
 ## Execuitve Summary & Critical Review
-## Aim
+### Aim
 The Aim of this Project was to succefully Create an Application Which gives the the user the ability to Create, Read, Update and delete within a Flask Website. 
 
 Bespoke requirements for myself was include a Project Tracking tool, create a databses that shares Relations whitin its tables, provide documentation of all phases, build test suits and intergrate my code into some type of verison control sytsem built by a CI server and depolyed through a virtual machine using a cloud server .
@@ -112,6 +109,20 @@ like stated aboove, overall only two tables was implemented "JobAplications" and
 ## Conclusion
 
 
+### Identified Issues
+Due to a succseful CRUD application thier were not many issues established. however due tot he tesing coverage being only 88%, perhaps some issuse were not seen. Regarldess some of the main issues faced whilst creating this crud application are as follows:
+* Gunicorn unable to work with jenkins. this was a result of jenkins being unable to run the gunicorn command to run my app. one possible sollution to this could be to create a new VM then set up jenkins again. 
+
+
+
+### Future Improvmments
+in conclsusion to the identified issuses, the improvment to be made to the application would be as follows:
+* Run my app thoruhg a WSGI, to give the sevrer a set of rules to abide by inorder for the server to be compatioable with any framework that use it. this will allow my app to run on a production deployment server. over all if the traffic coming into my website faces some erros using the aplication, a internal servor error will be dsiplayed rather than the problem thats going on in the back end of my application. this could be done by instaling a program like Gunicorn or Django.
+* Create a Login funtion so that the functionalatity of my webiste is enhanced. with this function i would have be able to create more relatonships between my databses, include a more bespoke service for the users and also improve my learning using flask. this could have been done by instaling Flask_login and iporting login manager. Also including another tab on my home page, setting up a new form along with a root for that function and creating another table in the SQL.
+* completed 100% Coverge in my testing suit using pytest so that the website can be said to be turly reaible and deplieted of bugs. i would do this by testing all areas of the website and not just the major areas. 
+* Automated my Testing so that my project is more efficent. this can be done by inputing tesing commands into the jenkins config.
+* Applied Integration Testing to the application. this will test how all the diffrent funcrtionality of my website work together. this will improve the accracy of my tests and overl increase the realibilty of the webisite. i would have done this by importing unnittest and all the dependencies.
+
 
 [Back to the Top](#Recruitement-App)
 
@@ -119,6 +130,8 @@ like stated aboove, overall only two tables was implemented "JobAplications" and
 
 ## Reference
 
+* [Ivory.idyll.org. 2020.](#http://ivory.idyll.org/articles/wsgi-intro/what-is-wsgi.html)
+* [Flask-sqlalchemy.palletsprojects.com. 2020.](#https://flask-sqlalchemy.palletsprojects.com/en/2.x/)
 
 
 [Back to the Top](#Recruitement-App)
