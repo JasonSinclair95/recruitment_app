@@ -45,17 +45,9 @@ Bespoke requirements for myself was include a Project Tracking tool, create a da
 
 the creation of a crud Application using a micro framework like Flask was great as is provides a huge libary of compents that could be customisation to the speciffication of this Recuitment App. some of which included Flask-Forms which helped with the create functionality of the application and SQLAalchemy which helped me connect my python code to the Recuitment Database. 
 
-## My Aprroach
+## My Method
 ### Recuitment APP
-the Recruitemnt application is a functional display of recuitment in the virual world. a " "Client" User is able to create a job Post by fillng out a Form and upon submisson that form will be posted on the home page of the Website. Similaly a 'job seeker' user can click on any job posted on the home page of the webiste to complete a form and apply for that specifif job. the source code for both forms can be seen below
-
-### picture of forms
-
-
-notice how the the job_id was not a varible in these. like spokenn of above in th SQL table this key is Auto Incrimentented. the sorurce code which specifys actley which job the applicant is applying for can be found by clicking the[link](github homehtml)
-
-the update and delted function can also be found of the home page which will alter or remove JobPost from the database.
-
+the Recruitemnt application is a functional display of recuitment in the virual world. a " "Client" User is able to create a job Post by fillng out a Form and upon submisson that form will be posted on the home page of the Website. Similaly a 'job seeker' user can click on any job posted on the home page of the webiste to complete a form and apply for that specifif job. the update and delted function can also be found of the home page which will alter or remove JobPost from the database.
 
 ### Summary 
 
@@ -71,7 +63,7 @@ system deservice
 
 Isluatrated below is four tables of which i planned to include in my project within one Database. Although only Two was implemented the relationship between each table can be seen using the relevent connections and foreign/primary Keys. 
 
-![](Document/CRD.png)
+![](Documents/CRD.png)
 
 like stated aboove, overall only two tables was implemented "JobAplications" and "JobPosts".  A jobPost can have 0 to many Apllications for it, and a application can be from only one job roll posted. the application table depends on a Job to be Posted and makes use of the Primary Key "job_id" iorder for the user to identuify which job they are applying for. Modelled below is the specification Created in Google SQL.
 
@@ -83,8 +75,7 @@ Above were the two tables impimented in this application. the Tpe Collumb is set
 ![](Documents/AppError.png)
 
 
-
-###CIP Piplie
+### CIP Piplie
 
 
 
@@ -116,7 +107,7 @@ Above were the two tables impimented in this application. the Tpe Collumb is set
 ---
 
 ## Risk Assessment
-
+The Risk asssesment below contains some of the possible risks when creating an application using during this cohort.to view the whole risk assesment click here 
 ![](Documents/RiskAssessment.png)
 
 [Back to the Top](#Recruitement-App)
