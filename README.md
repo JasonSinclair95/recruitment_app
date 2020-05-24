@@ -27,7 +27,7 @@
 
 5. [Front-End Design Walk Through](#Front-End-Desing-Walk-Through)
 
-6. [Risk Assesment](#Risk Asse)]
+6. [Risk Assessment](#Risk-Assessment)]
 
 6. [Conclusion](#conclusion)
     1. Identified Issues
@@ -105,6 +105,14 @@ like stated aboove, overall only two tables was implemented "JobAplications" and
 ## Front-End Desing Walk Through
 
 
+
+[Back to the Top](#Recruitement-App)
+
+---
+
+## Risk Assessment
+
+![](Documents/RiskAssessment.png)
 
 [Back to the Top](#Recruitement-App)
 
