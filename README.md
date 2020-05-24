@@ -73,14 +73,16 @@ Isluatrated below is four tables of which i planned to include in my project wit
 
 ![](Document/CRD.png)
 
-like stated aboove, overall only two tables was implemented "JobAplications" and "JobPosts".  A jobPost can have 0 to many Apllications for it, and a application can be from only one job roll posted. the application table depends on a Job to be Posted and makes use of the Primary Key "job_id" iorder for the user to identuify which job they are applying for. Modelled below is the CRD and the specification Created in Google SQL.
+like stated aboove, overall only two tables was implemented "JobAplications" and "JobPosts".  A jobPost can have 0 to many Apllications for it, and a application can be from only one job roll posted. the application table depends on a Job to be Posted and makes use of the Primary Key "job_id" iorder for the user to identuify which job they are applying for. Modelled below is the specification Created in Google SQL.
 
 
-![](Documents//home/jaesinc/recruitment_app/Documents/Screenshot 2020-05-25 at 00.21.41.png)
+![](Documents/SQL.png)
 
 Above were the two tables impimented in this application. the Tpe Collumb is set specifially for each varible in the table. the Jobid seen in the JobPosts Table in the FOreign Key in the JobApllications table and is also auto incrimented. all varibles in the dable must conatin data to be submited other a erros will be displayed. for example in the JobPosts table the salary cant contain more than 11 intergers or the address cant contain more than 100 charecters. below is what the error would look like if the whole form is not complete.
 
+![](Documents/ErrorSourceCode.png)
 
+![](Documents/AppError.png)
 
 
 
