@@ -78,9 +78,7 @@ like stated aboove, overall only two tables was implemented "JobAplications" and
 
 ![](Documents/SQL.png)
 
-Above were the two tables impimented in this application. the Tpe Collumb is set specifially for each varible in the table. the Jobid seen in the JobPosts Table in the FOreign Key in the JobApllications table and is also auto incrimented. all varibles in the dable must conatin data to be submited other a erros will be displayed. for example in the JobPosts table the salary cant contain more than 11 intergers or the address cant contain more than 100 charecters. below is what the error would look like if the whole form is not complete.
-
-![](Documents/ErrorSourceCode.png)
+Above were the two tables impimented in this application. the Tpe Collumb is set specifially for each varible in the table. the Jobid seen in the JobPosts Table in the FOreign Key in the JobApllications table and is also auto incrimented. all varibles in the dable must conatin data to be submited other a erros will be displayed. for example in the JobPosts table the salary cant contain more than 11 intergers or the address cant contain more than 100 charecters. below is what the error would look like on the website otherwise click [here](application/routes.py) to see the source code.
 
 ![](Documents/AppError.png)
 
