@@ -27,6 +27,8 @@
 
 5. [Front-End Design Walk Through](#Front-End-Desing-Walk-Through)
 
+6. [Risk Assesment](#Risk Asse)]
+
 6. [Conclusion](#conclusion)
     1. Identified Issues
     1. Future Improvments
@@ -56,6 +58,8 @@ the update and delted function can also be found of the home page which will alt
 
 
 ### Summary 
+
+system deservice
 
 
 [Back to the Top](#Recruitement-App)
@@ -108,12 +112,12 @@ like stated aboove, overall only two tables was implemented "JobAplications" and
 
 ## Conclusion
 
+In conclusion, i followed the reqiuirment that set on my KanBAn Bord and work with the MVP concept which resulted in a creating a succsful CRUD. Users are able to creat a Job and a Apllication, update a Job Post Delete a job Post and VIsualise/Read all Posts made on the homepage. risks were identified along with clear documentation of the architectur in this application. Using Visual Code and python to build my application was very efficent as python is very easy to understand at a beginers level and Vs code allowed me to acces my work more easy than using the GCP SSH. i now have a clear understanding how to use Flask, code in python and automate the process using a CI server for system deservice.
 
 ### Identified Issues
 Due to a succseful CRUD application thier were not many issues established. however due tot he tesing coverage being only 88%, perhaps some issuse were not seen. Regarldess some of the main issues faced whilst creating this crud application are as follows:
+
 * Gunicorn unable to work with jenkins. this was a result of jenkins being unable to run the gunicorn command to run my app. one possible sollution to this could be to create a new VM then set up jenkins again. 
-
-
 
 ### Future Improvmments
 in conclsusion to the identified issuses, the improvment to be made to the application would be as follows:
@@ -164,3 +168,4 @@ SOFTWARE.
 
 [Back to the Top](#Recruitement-App)
 
+---
