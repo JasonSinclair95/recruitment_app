@@ -1,7 +1,7 @@
 # Recruitement App
 > DevOps Core Fundamental Project 
 #### Objective: The personal objectives listed below relate directly to the skills listed in the **[ SFIA 7 framework ](https://www.sfia-online.org/en/framework/sfia-7)**
- To create a fully functional CRUD application with utilisation of supporting tools,methodologies and technologies. To work efficiently and focus on creating more value for QA by devolping my understanding in all relevent Areas.
+ To create a fully functional CRUD application with utilisation of supporting tools,methodologies and technologies. To work  efficiently by responding to change when need be. To work with DevOps mindesetand by following the four main values and Devolping my Core skills and improve value of my skillset.
  
 --- 
 
@@ -16,7 +16,7 @@
     1. My Method
 
 3. [Architecture](#Architecture) 
-    1. Database Structure
+    1. Database Structure - CRD & SQL Tables
     1. CI Pipleline
 
 4. [Project Tracking](#Project-Tracking)
@@ -39,13 +39,34 @@
 
 ---
 ## Execuitve Summary & Critical Review
+The Aim of this Project was to succefully Create an Application Which gives the the user the ability to Create, Read, Update and delete within a Flask Website. 
 
+Bespoke requirements for myself was include a Project Tracking tool, create a databses that shares Relations whitin its tables, provide documentation of all phases, build test suits and intergrate my code into some type of verison control sytsem built by a CI server and depolyed through a virtual machine using a cloud server .
+
+the creation of a crud Application using a micro framework like Flask was great as is provides a huge libary of compents that could be customisation to the speciffication of this Recuitment App. some of which included Flask-Forms which helped with the create functionality of the application and SQLAalchemy which helped me connect my python code to the Recuitment Database. 
+
+## My Aprroach
 
 
 [Back to the Top](#Recruitement-App)
 
 ---
-## Architecture
+## Architecture 
+
+### DataBase Structure
+
+Isluatrated below is four tables of which i planned to include in my project within one Database. Although only Two was implemented the relationship between each table can be seen using the relevent connections and foreign/primary Keys. 
+
+####CRD
+
+like stated aboove, overall only two tables was implemented "JobAplications" and "JobPosts".  A jobPost can have 0 to many Apllications for it, and a application can be from only one job roll posted. the application table depends on a Job to be Posted and makes use of the Primary Key "job_id" iorder for the user to identuify which job they are applying for. Modelled below is the CRD and the specification Created in Google SQL.
+
+
+####CRD for Two and Screenshot of SQL DataBAse
+
+###CIP Piplie
+
+
 
 
 
