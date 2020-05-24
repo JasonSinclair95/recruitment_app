@@ -12,8 +12,8 @@
 
 2. [Execuitve Summary & Critical Review](#execuitve-summary-&-critical-review)
     1. Aim  
-    1. Requirments
     1. My Method
+    1. Summary
 
 3. [Architecture](#Architecture) 
     1. Database Structure - CRD & SQL Tables
@@ -39,6 +39,7 @@
 
 ---
 ## Execuitve Summary & Critical Review
+## Aim
 The Aim of this Project was to succefully Create an Application Which gives the the user the ability to Create, Read, Update and delete within a Flask Website. 
 
 Bespoke requirements for myself was include a Project Tracking tool, create a databses that shares Relations whitin its tables, provide documentation of all phases, build test suits and intergrate my code into some type of verison control sytsem built by a CI server and depolyed through a virtual machine using a cloud server .
@@ -46,6 +47,18 @@ Bespoke requirements for myself was include a Project Tracking tool, create a da
 the creation of a crud Application using a micro framework like Flask was great as is provides a huge libary of compents that could be customisation to the speciffication of this Recuitment App. some of which included Flask-Forms which helped with the create functionality of the application and SQLAalchemy which helped me connect my python code to the Recuitment Database. 
 
 ## My Aprroach
+### Recuitment APP
+the Recruitemnt application is a functional display of recuitment in the virual world. a " "Client" User is able to create a job Post by fillng out a Form and upon submisson that form will be posted on the home page of the Website. Similaly a 'job seeker' user can click on any job posted on the home page of the webiste to complete a form and apply for that specifif job. the source code for both forms can be seen below
+
+### picture of forms
+
+
+notice how the the job_id was not a varible in these. like spokenn of above in th SQL table this key is Auto Incrimentented. the sorurce code which specifys actley which job the applicant is applying for can be found by clicking the[link](github homehtml)
+
+the update and delted function can also be found of the home page which will alter or remove JobPost from the database.
+
+
+### Summary 
 
 
 [Back to the Top](#Recruitement-App)
