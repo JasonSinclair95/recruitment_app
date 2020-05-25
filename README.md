@@ -76,7 +76,9 @@ Above were the two tables impimented in this application. the Tpe Collumb is set
 
 
 ### CIP Piplie
+ 
 
+![](Documents/CiPipeline.png)
 
 
 
@@ -85,6 +87,17 @@ Above were the two tables impimented in this application. the Tpe Collumb is set
 ---
 ## Project Tracking
 
+
+To track my project progression, I used a kanban Trello Board. This helped me to have an overview of different stages of the project. Although this wan an individual project, Agile methodology was carried out where possible, regarding the product and sprint (tasks) backlog. The product backlog contained User Stories that the CRUD application had to fulfill, then the tasks broke this down into smaller objectives that had to be completed to meet the end-goal. in short the MOSCOW principle was apllied so that a must have, should have, could have and would have columnb was created.
+
+## picture of before
+
+
+The above image displays my Trello Board prior to any project progression. As you can see, only the 'Product Backlog' and 'Tasks' columns are populated. The board also included an 'In Progress' column to show what was being worked on but not yet completed, a 'Tested?' column to illustrate what had been tested, for example the CRUD application itself, a 'Done' column to indicate what was finished, and finally a 'Bugs/Issues' column in case there were any problems while attempting to complete a task.
+
+## picture after
+
+By the project due date (26th May), all of the User Stories had been met, and issues were fixed and near to none. However, integration testing using Selenium had not been completed. Unfortunately, this was a result of the testing not being fully conducted because of time restrictions toward the end of the project.
 
 
 [Back to the Top](#Recruitement-App)
@@ -107,9 +120,15 @@ Above were the two tables impimented in this application. the Tpe Collumb is set
 ---
 
 ## Risk Assessment
-The Risk asssesment below contains some of the possible risks when creating an application using during this cohort.to view the whole risk assesment click here 
-![](Documents/images/RiskAssessment.png)
+The Risk asssesment below contains some of the possible risks when creating an application during this cohort. the likelyhood of the risk are scored using a color code and given a number. red be veryhigh risk, orange being high risk and yellow being moderatly low risk. An overall score for each risk can be found in the last columb.
 
+### risk assessment without severity row
+
+### Risk Assessment revisited
+
+### updated risk with severity columb
+
+the risk assentment was updated thoruhgh out the project because of the exposure of new risk that could possibly occure. a columb was then added "Servirity of the risk to take into consideration how severe it the risk could impact your work. this paremtere was then included n the overall risk score. to view the whole risk assesment click here ![](Documents/images/RiskAssessment.png)
 [Back to the Top](#Recruitement-App)
 
 ---
