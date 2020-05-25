@@ -6,7 +6,8 @@
 --- 
 
 ### Materials:
-1. [ Recruitment Website ](https://34.89.105.159:5000)
+1. [ Recruitment Website ](https://35.189.114.197:5000/)
+2. [ Trello Board ](https://trello.com/b/NptCjjZn/recruitment)
 
 ---
 
