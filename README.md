@@ -24,7 +24,7 @@
 
 4. [Testing](#Testing)
 
-5. [Risk Assessment](#Risk-Assessment)]
+5. [Risk Assessment](#Risk-Assessment)
 
 6. [Conclusion](#conclusion)
     1. Identified Issues
