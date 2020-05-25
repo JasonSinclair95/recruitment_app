@@ -78,26 +78,30 @@ Above were the two tables impimented in this application. the Tpe Collumb is set
 ### CIP Piplie
  
 
-![](Documents/CiPipeline.png)
+![](Documents/images/CiPipeline.png)
 
 
+to elaberate on some of the technologis used in the CI piple is as follows:
+* GCP - to create the virtual enviorment and also set up the foundation of our Databases using MySQL.
+* VS Code/Python - is an interpreter which allows better visualisation when building the flask application using python, in comparison to coding using google ssh. 
+* Trello board to keep track of the project progress.
+* GitHub: allows the source code to be stored and also webhooks are created which tigger the ci server to build//run the application.
+* PyTest: to test the application and produce a covrage report. 
 
 [Back to the Top](#Recruitement-App)
 
 ---
 ## Project Tracking
 
+This board was used to highlight the userstories/tasks and keep the devopment of the project on track. the Moscow principle was aapplied by color cooding what must be done (red), should be done (green), could be done (blue) and would be done (yellow). following a DevOps mindset and agile methology the User Stories can be seen to the far left. from this the sprint and backlog was created and sorted in terms of pririty using th emoscow princple. all task with a red lable must have been complete for the CRUD Application to be succseful. below is the progress of the trello board half way through the project.
 
-To track my project progression, I used a kanban Trello Board. This helped me to have an overview of different stages of the project. Although this wan an individual project, Agile methodology was carried out where possible, regarding the product and sprint (tasks) backlog. The product backlog contained User Stories that the CRUD application had to fulfill, then the tasks broke this down into smaller objectives that had to be completed to meet the end-goal. in short the MOSCOW principle was apllied so that a must have, should have, could have and would have columnb was created.
+![](Documents/images/TrelloInProgress.png)
 
-## picture of before
+As you can see most of the should haves, have not been coplete nor tested. thoughout the project more task was inputed and the completed version can be seen below. 
 
+![](Documents/images/TrelloCompleted.png)
 
-The above image displays my Trello Board prior to any project progression. As you can see, only the 'Product Backlog' and 'Tasks' columns are populated. The board also included an 'In Progress' column to show what was being worked on but not yet completed, a 'Tested?' column to illustrate what had been tested, for example the CRUD application itself, a 'Done' column to indicate what was finished, and finally a 'Bugs/Issues' column in case there were any problems while attempting to complete a task.
-
-## picture after
-
-By the project due date (26th May), all of the User Stories had been met, and issues were fixed and near to none. However, integration testing using Selenium had not been completed. Unfortunately, this was a result of the testing not being fully conducted because of time restrictions toward the end of the project.
+in conclusion all should have had been met. unfortuantly some task were still in progress like testing and may take some more time to complete. 
 
 
 [Back to the Top](#Recruitement-App)
@@ -105,13 +109,28 @@ By the project due date (26th May), all of the User Stories had been met, and is
 ---
 ## Testing
 
+![](Documents/images/PytestCov.png)
 
+Illustrated above is pytests coverage results for the application. the main priority is that if a function is executed the output should be know which is why all the major CRUD Functions had been tested. All forms created was 100% tested, the models file which contains the structure of the databases was 92% test and finally the routs.py file which is where all function were defined was 71% test. a total of 88% coverage was acheived and it was chosen that the priotity would be to test the CRUd Function and URL links so that at least data can be collected.
+
+![](Documents/images/CreateTest.png)
+
+The create functions above was tested by the following:
+* a user can create a job post and directed back to the home page when submitted. on the home page they should be able to visualise the post which had been created.
+* a user can create an application for a job which is then stored in a database. 
+
+![](Documents/images/UpdateDeleteTest.png)
+
+the update and delete functions above was tested by the following
+* using the testbase setup, the delete function when executed whill remove an entry in the database. python will then count how much entry their are currently and if their is if the result is correct the test will have passed.
+* the update function will change a varibe in the the defalt jobs created within the testbase setup. if that varible is now found pytest will have passed.
 
 [Back to the Top](#Recruitement-App)
 
 ---
 
 ## Front-End Desing Walk Through
+
 
 
 
@@ -122,13 +141,14 @@ By the project due date (26th May), all of the User Stories had been met, and is
 ## Risk Assessment
 The Risk asssesment below contains some of the possible risks when creating an application during this cohort. the likelyhood of the risk are scored using a color code and given a number. red be veryhigh risk, orange being high risk and yellow being moderatly low risk. An overall score for each risk can be found in the last columb.
 
-### risk assessment without severity row
+![](Documents/images/RiskAssesmentIntial.png)
 
 ### Risk Assessment revisited
 
-### updated risk with severity columb
+![](Documents/images/RiskAssessment.png)
 
-the risk assentment was updated thoruhgh out the project because of the exposure of new risk that could possibly occure. a columb was then added "Servirity of the risk to take into consideration how severe it the risk could impact your work. this paremtere was then included n the overall risk score. to view the whole risk assesment click here ![](Documents/images/RiskAssessment.png)
+the risk assentment was updated thoruhgh out the project because of the exposure of new risk that could possibly occure. a columb was then added "Servirity of the risk to take into consideration how severe it the risk could impact your work. this paremtere was then included n the overall risk score. to view the whole risk assesment click [here](#Documents/RiskAssessment.xlsx) 
+
 [Back to the Top](#Recruitement-App)
 
 ---
