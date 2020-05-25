@@ -47,16 +47,21 @@ the creation of a crud Application using a micro framework like Flask was great 
 
 ## My Method
 ### Recuitment APP
-the Recruitemnt application is a functional display of recuitment in the virual world. a " "Client" User is able to create a job Post by fillng out a Form and upon submisson that form will be posted on the home page of the Website. Similaly a 'job seeker' user can click on any job posted on the home page of the webiste to complete a form and apply for that specifif job. the update and delted function can also be found of the home page which will alter or remove JobPost from the database.
+the Recruitemnt application is a functional display of recuitment in the virual world. a " "Client" User is able to create a job Post by fillng out a Form and upon submisson that form will be posted on the home page of the Website. the update and delted function can also be found of the home page which will alter or remove JobPost from the database. Similaly a 'job seeker' user can click on any job posted on the home page of the webiste to complete a form and apply for that specifif job. 
+
+![](Documents/images/HomePage.png) ![](Documents/images/JobPost.png)![](Documents/images/ApplicationsPage.png)
+
+the application itself itself is built and run through jenkins, which with a specif config works as a system desrvice.
+
 
 ### Summary 
 
-system deservice
-
+in summary a succeful Front-end and back-end CRUD application was created with a 88% test coverage. project tracking, testing and CI tools was used with the mindset of a DevOps engineer inorder to work effeicnt and focus on contiouse deployment. Along with this risks were identified and a risk assement was created to take precaution whilst completing this project. Some issues and improvments have been stated in the conclusiion to the project.
 
 [Back to the Top](#Recruitement-App)
 
 ---
+
 ## Architecture 
 
 ### DataBase Structure
@@ -124,15 +129,6 @@ The create functions above was tested by the following:
 the update and delete functions above was tested by the following
 * using the testbase setup, the delete function when executed whill remove an entry in the database. python will then count how much entry their are currently and if their is if the result is correct the test will have passed.
 * the update function will change a varibe in the the defalt jobs created within the testbase setup. if that varible is now found pytest will have passed.
-
-[Back to the Top](#Recruitement-App)
-
----
-
-## Front-End Desing Walk Through
-
-
-
 
 [Back to the Top](#Recruitement-App)
 
