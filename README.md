@@ -159,5 +159,29 @@ in conclusion to the identified issues, the improvements to be made to the appli
 * Automated my Testing so that my project is more efficient. this can be done by inputting testing commands into the Jenkins config.
 * Applied Integration Testing to the application. this will test how all the different functionalitys of my website work together. this will improve the accuracy of my tests and overall increase the reliability of the website. I would have done this by importing unnittest and all the dependencies.
 
+##  Acknowledgments 
 
+* The QA Consultants for helping with my Development and teaching the required skills to build this application.
+
+## MIT License
+
+Copyright (c) 2020 JasonSinclair95
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ---
