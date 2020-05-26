@@ -53,7 +53,9 @@ the application itself is built and run through Jenkins, which with a specific c
 
 ### Summary 
 
-To summarize a successful, a Front-end and back-end CRUD application was created with a 88% test coverage. project tracking, testing and CI tools was used with the mindset of a DevOps engineer in order to work efficiently and focus on continues deployment. Along with this, risks were identified, and a risk assessment was created to take precaution whilst completing this project. Some issues and improvements have been stated in the conclusion section.
+To summarize a successful, Front-end and back-end CRUD application was created with a 88% test coverage. project tracking, testing and CI tools was used with the mindset of a DevOps engineer in order to work efficiently and focus on continues deployment. Along with this, risks were identified, and a risk assessment was created to take precaution whilst completing this project. Some issues and improvements have been stated in the conclusion section however best practices was applied through out. One of which is using mutliple branches to merge new features to my master branch.
+
+![](Documents/images/branches.png)
 
 [Back to the Top](#Recruitment-App)
 
