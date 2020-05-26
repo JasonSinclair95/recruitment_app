@@ -136,7 +136,7 @@ The Risk assessment below contains some of the possible risks when creating an a
 
 ![](Documents/images/RiskAssessment.png)
 
-the risk assessment was updated throughout out the project because of the exposure of new risk that could possibly occur. Like loss of data. Using git hub commanads and removing work prior to pushing to git resulted in a loss of work during the project. The procedure to avoid this was then updated in the table as you can see above. Also a column was then added "Severity" of the risk to take into consideration how severe it the risk could impact your work. this parameter was then included n the overall risk score. to view the whole risk assessment click [here](#Documents/RiskAssessment.xlsx) 
+the risk assessment was updated throughout out the project because of the exposure of new risk that could possibly occur. Like loss of data. Using git hub commanads and removing work prior to pushing to git resulted in a loss of work during the project. The procedure to avoid this was then updated in the table as you can see above. Also a column was then added "Severity" of the risk to take into consideration how severe it the risk could impact your work. this parameter was then included n the overall risk score. to view the whole risk assessment click [here](Documents/RiskAssessment.xlsx).
 
 [Back to the Top](#Recruitment-App)
 
