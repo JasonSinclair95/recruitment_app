@@ -31,7 +31,7 @@
     1. Identified Issues
     1. Future Improvements
 7. [Reference](#Reference)
-8. [license](#Licence)
+8. [license](#Mit-Licence)
 
 ---
 
@@ -158,6 +158,10 @@ in conclusion to the identified issues, the improvements to be made to the appli
 * completed 100% Converge in my testing suit using pytest so that the website can be said to be truly reliable and depilated of bugs. I would do this by testing all areas of the website and not just the major areas. 
 * Automated my Testing so that my project is more efficient. this can be done by inputting testing commands into the Jenkins config.
 * Applied Integration Testing to the application. this will test how all the different functionalitys of my website work together. this will improve the accuracy of my tests and overall increase the reliability of the website. I would have done this by importing unnittest and all the dependencies.
+
+## Author
+
+Jason Sinclair
 
 ##  Acknowledgments 
 
