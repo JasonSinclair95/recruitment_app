@@ -164,6 +164,7 @@ in conclusion to the identified issues, the improvements to be made to the appli
 ## Reference
 
 [ Ivory.idyll.org. 2020.](http://ivory.idyll.org/articles/wsgi-intro/what-is-wsgi.html)
+
 [ Flask-sqlalchemy.palletsprojects.com. 2020.](https://flask-sqlalchemy.palletsprojects.com)
 
 ## Author
